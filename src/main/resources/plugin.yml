@@ -1,0 +1,69 @@
+name: EssentialPVP
+main: com.haniokasai.nukkit.EssentialPVP.Main
+version: 0.0.1
+author: haniokasai
+api: ["1.0.0"]
+description: Core PVP plugin
+website: http://haniokasai.com
+
+commands:
+   core:
+      description: essentialPVP core
+      usage: /core
+      permission: EssentialPVP.cmd.core
+      permission-message: You don't have <permission>
+      default: op
+   corehp:
+      description: EssentialPVP corehp
+      usage: /corehp <hp amount>
+      permission: essentialPVP.cmd.corehp
+      permission-message: You don't have <permission>
+      default: op
+   killmoney:
+      description: EssentialPVP killmoney
+      usage: /killmoney <money amount>
+      permission: essentialPVP.cmd.killmoney
+      permission-message: You don't have <permission>
+      default: op
+   bcmoney:
+      description: EssentialPVP brake core money
+      usage: /bcmoney <money amount>
+      permission: essentialPVP.cmd.bcmoney
+      permission-message: You don't have <permission>
+      default: op
+   tlimit:
+      description: EssentialPVP timelimit
+      usage: /tlimit <minutes>(0 is false)
+      permission: essentialPVP.cmd.timelimit
+      permission-message: You don't have <permission>
+      default: op
+   servname:
+      description: EssentialPVP servname
+      usage: /servname <name>
+      permission: essentialPVP.cmd.servname
+      permission-message: You don't have <permission>
+      default: op
+   team:
+      description: EssentialPVP team conf. 2 or 4 or false. 
+      usage: /team 2 or 4 or off
+      permission: essentialPVP.cmd.team
+      permission-message: You don't have <permission>
+      default: op
+   pvp:
+      description: EssentialPVP check conf
+      usage: /pvp
+      permission: essentialPVP.cmd.conf
+      permission-message: You don't have <permission>
+      default: true
+   stat:
+      description: EssentialPVP check team status
+      usage: /stat
+      permission: essentialPVP.cmd.stat
+      permission-message: You don't have <permission>
+      default: true
+   mystat:
+      description: EssentialPVP check my status
+      usage: /mystat
+      permission: essentialPVP.cmd.mystat
+      permission-message: You don't have <permission>
+      default: true
